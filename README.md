@@ -76,7 +76,6 @@ From Transfermarkt, we will gather the following key information for each player
 - *Transfer Value (our main variable)*
 
 These data points have been identified as significant determinants of a player's market value based on the available information from Transfermarkt.
-
 ---
 ## 🔬 Data Analysis
 
@@ -93,51 +92,43 @@ The analysis will include various visualizations and statistical methods to unco
 ## 💡 Key Findings
 
 1. **Top-Valued Players**: 
-
    - 👑 Kylian Mbappé, Jude Bellingham, Vinicius Junior, and Erling Haaland lead with €180 million each
    - 💰 Top 10 most expensive players valued between €120 million and €180 million
 
-        <img src="images/output1.png" width="500">
+   <img src="images/output1.png" width="600" alt="Top-Valued Players">
 
 <br>
 
 2. **League Impact**: 
-
    - 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English Premier League (GB1) shows highest average market value among top European leagues
 
-        <img src="images/output2.png" width="500">
+   <img src="images/output2.png" width="600" alt="League Impact">
 
 <br>
 
 3. **Physical Attributes**: 
-
    - 🤔 Relationship between height, dominant foot, and market value explored
 
-      <div style="display: flex; justify-content: space-between;">
-      <img src="images/output6.png" width="500">
-      <br>
-      <img src="images/output7.png" width="500">
-
+   <div style="display: flex; justify-content: space-between;">
+     <img src="images/output6.png" width="48%" alt="Height vs Market Value">
+     <img src="images/output7.png" width="48%" alt="Dominant Foot vs Market Value">
    </div>
 
 <br>
 
 4. **Performance Metrics**: 
-
-   - ⚽ Goals, assists, and minutes played to be analyzed for correlation with market value
+   - ⚽ Goals, assists, and minutes played analyzed for correlation with market value
    - 📊 Investigation into performance-value discrepancies among high-performing players
 
-      <div style="display: flex; justify-content: space-between;">
-      <img src="images/output3.png" width="250">
-      <br>
-      <img src="images/output4.png" width="250">
-      <br>
-      <img src="images/output5.png" width="250">
+   <div style="display: flex; justify-content: space-between;">
+     <img src="images/output3.png" width="32%" alt="Goals vs Market Value">
+     <img src="images/output4.png" width="32%" alt="Assists vs Market Value">
+     <img src="images/output5.png" width="32%" alt="Minutes Played vs Market Value">
    </div>
 
 <br>
 
-... and many other things *(see notebook for details)*
+... and many other insights *(see notebook for details)*
 
 ---
 
@@ -163,7 +154,6 @@ In the dynamic world of football, player valuations have become a critical aspec
 7. **Club Status**: How does the reputation and financial power of a player's current club influence their market value?
 8. **Injury History**: To what extent do past injuries and perceived injury risk affect a player's valuation?
 
-[... and all other things ...]
 
 By leveraging advanced data analysis techniques, this project aims to provide insights for clubs to optimize their transfer strategies, financial planning, and player development programs.
 
@@ -172,6 +162,9 @@ By leveraging advanced data analysis techniques, this project aims to provide in
 ## 📁 Dashboard Visualization
 
 [Data Visualization](https://public.tableau.com/app/profile/ayudha.amari.hirtranusi/viz/h8dsft_Milestone1_Ayudha_Amari/home-page)
+
+<img src="images/football-6.jpg" width="1000">
+
 
 ---
 
