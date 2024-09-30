@@ -71,11 +71,11 @@ This project analyzes the market values of football players, exploring various f
    - 📊 Investigation into performance-value discrepancies among high-performing players
 
       <div style="display: flex; justify-content: space-between;">
-      <img src="images/output3.png" width="500">
+      <img src="images/output3.png" width="250">
       <br>
-      <img src="images/output4.png" width="500">
+      <img src="images/output4.png" width="250">
       <br>
-      <img src="images/output5.png" width="500">
+      <img src="images/output5.png" width="250">
    </div>
 
 <br>
