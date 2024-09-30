@@ -38,7 +38,6 @@ This project analyzes the market values of football players, exploring various f
 1. **Top-Valued Players**: 
 
    - 👑 Kylian Mbappé, Jude Bellingham, Vinicius Junior, and Erling Haaland lead with €180 million each
-
    - 💰 Top 10 most expensive players valued between €120 million and €180 million
 
         <img src="images/output1.png" width="500">
@@ -57,23 +56,25 @@ This project analyzes the market values of football players, exploring various f
 
    - 🤔 Relationship between height, dominant foot, and market value explored
 
+   <img src="images/output6.png" width="100%">
+   
+   <br>
+   
+   <img src="images/output7.png" width="100%">
 
-      <div style="display: flex; justify-content: space-between;">
-      <img src="images/output6.png" width="49%">
-      <img src="images/output7.png" width="49%">
-   </div>
 <br>
 
 4. **Performance Metrics**: 
 
    - ⚽ Goals, assists, and minutes played to be analyzed for correlation with market value
-
    - 📊 Investigation into performance-value discrepancies among high-performing players
 
       <div style="display: flex; justify-content: space-between;">
-      <img src="images/output3.png" width="33%">
-      <img src="images/output4.png" width="33%">
-      <img src="images/output5.png" width="33%">
+      <img src="images/output3.png" width="100%">
+      <br>
+      <img src="images/output4.png" width="100%">
+      <br>
+      <img src="images/output5.png" width="100%">
    </div>
 
 <br>
