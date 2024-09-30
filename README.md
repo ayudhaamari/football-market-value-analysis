@@ -56,11 +56,12 @@ This project analyzes the market values of football players, exploring various f
 
    - 🤔 Relationship between height, dominant foot, and market value explored
 
-   <img src="images/output6.png" width="500">
-   
-   <br>
-   
-   <img src="images/output7.png" width="500">
+      <div style="display: flex; justify-content: space-between;">
+      <img src="images/output6.png" width="500">
+      <br>
+      <img src="images/output7.png" width="500">
+
+   </div>
 
 <br>
 
