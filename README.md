@@ -31,6 +31,63 @@ This project analyzes the market values of football players, exploring various f
 7. 🏆 Determine which league contributes to the highest market value
 8. 💼 Identify the club with the highest market value
 
+
+
+---
+
+
+## 📊 Data Sources
+
+This project utilizes two primary data sources:
+
+1. **[Player Scores Dataset (Kaggle)](https://www.kaggle.com/datasets/davidcariboo/player-scores)**: A kaggle dataset that on a high level, uses transfermarkt-scraper to pull the data from Transfermark website and a set of Python scripts and SQL to curate it and publish it there. 
+
+
+Clean, structured and automatically updated football data from Transfermarkt, including:
+
+   ```
+   - 60,000+ games from many seasons on all major competitions
+   - 400+ clubs from those competitions
+   - 30,000+ players from those clubs
+   - 400,000+ player market valuations historical records
+   - 1,200,000+ player appearance records from all games
+   - and more!
+   ```
+
+The dataset is composed of multiple CSV files with information on competitions, games, clubs, players and appearances that is automatically updated **once a week** by the original author. Each file contains the attributes of the entity and the IDs that can be used to join them together.
+
+<img src="images/football-4.jpg" width="800">
+
+---
+
+2. **[Transfermarkt](https://www.transfermarkt.co.uk/)**: The leading website for football transfer news and market valuations.
+
+<img src="images/football-3.jpg" width="800">
+
+From Transfermarkt, we will gather the following key information for each player:
+
+- *Player Name*
+- *Current Team*
+- *Domestic league in which player's team competes*
+- *Age*
+- *Playing position*
+- *Nationality*
+- *Years Left on Contract*
+- *Transfer Value (our main variable)*
+
+These data points have been identified as significant determinants of a player's market value based on the available information from Transfermarkt.
+
+---
+## 🔬 Data Analysis
+
+The analysis will include various visualizations and statistical methods to uncover patterns:
+
+- 📊 Distribution of market values across different leagues
+- 🔗 Correlation between performance metrics and market values
+- 🧮 Clustering of players based on attributes and market values
+- 🌍 Geographical analysis of high-value players
+
+
 ---
 
 ## 💡 Key Findings
@@ -84,59 +141,6 @@ This project analyzes the market values of football players, exploring various f
 
 ---
 
-## 🔬 Data Analysis
-
-The analysis will include various visualizations and statistical methods to uncover patterns:
-
-- 📊 Distribution of market values across different leagues
-- 🔗 Correlation between performance metrics and market values
-- 🧮 Clustering of players based on attributes and market values
-- 🌍 Geographical analysis of high-value players
-
----
-
-## 📊 Data Sources
-
-This project utilizes two primary data sources:
-
-1. **[Player Scores Dataset (Kaggle)](https://www.kaggle.com/datasets/davidcariboo/player-scores)**: A kaggle dataset that on a high level, uses transfermarkt-scraper to pull the data from Transfermark website and a set of Python scripts and SQL to curate it and publish it there. 
-
-
-Clean, structured and automatically updated football data from Transfermarkt, including:
-
-   ```
-   - 60,000+ games from many seasons on all major competitions
-   - 400+ clubs from those competitions
-   - 30,000+ players from those clubs
-   - 400,000+ player market valuations historical records
-   - 1,200,000+ player appearance records from all games
-   - and more!
-   ```
-
-The dataset is composed of multiple CSV files with information on competitions, games, clubs, players and appearances that is automatically updated **once a week** by the original author. Each file contains the attributes of the entity and the IDs that can be used to join them together.
-
-<img src="images/football-4.jpg" width="800">
-
----
-
-2. **[Transfermarkt](https://www.transfermarkt.co.uk/)**: The leading website for football transfer news and market valuations.
-
-<img src="images/football-3.jpg" width="800">
-
-From Transfermarkt, we will gather the following key information for each player:
-
-- *Player Name*
-- *Current Team*
-- *Domestic league in which player's team competes*
-- *Age*
-- *Playing position*
-- *Nationality*
-- *Years Left on Contract*
-- *Transfer Value (our main variable)*
-
-These data points have been identified as significant determinants of a player's market value based on the available information from Transfermarkt.
-
----
 
 ## 🚀 Future Goals
 
