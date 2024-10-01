@@ -76,7 +76,9 @@ From Transfermarkt, we will gather the following key information for each player
 - *Transfer Value (our main variable)*
 
 These data points have been identified as significant determinants of a player's market value based on the available information from Transfermarkt.
+
 ---
+
 ## 🔬 Data Analysis
 
 The analysis will include various visualizations and statistical methods to uncover patterns:
